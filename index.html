@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <title>Document</title>
   </head>
   <body>
@@ -635,21 +640,286 @@
         </div>
       </section>
       <!-- section 8 -->
-      <section>
-        <div class="container mx-auto flex items-center justify-center">
-          <div class="grid grid-cols-4">
-            <div class="related">
-              <div class="absulate top-0 right-0 left-0 bottom-0">05</div>
-              <div>Year</div>
+      <section class="my-18 container mx-auto">
+        <div
+          class="grid grid-cols-2 lg:grid-cols-[25%_25%_25%_25%] gap-10 px-5"
+        >
+          <div
+            class="year flex items-center justify-center w-[235px] h-[200px] relative"
+          >
+            <h2 class="text-[180px] opacity-10" data-target="5">05</h2>
+            <p class="text-[40px] font-semibold absolute top-[40%] left-[30%]">
+              Year
+            </p>
+          </div>
+          <div
+            class="year flex items-center justify-center w-[235px] h-[200px] relative"
+          >
+            <h2 class="text-[180px] opacity-10" data-target="5">80</h2>
+            <p class="text-[40px] font-semibold absolute top-[40%] left-[30%]">
+              Projects
+            </p>
+          </div>
+          <div
+            class="year flex items-center justify-center w-[235px] h-[200px] relative"
+          >
+            <h2 class="absolute text-[180px] opacity-10" data-target="5">02</h2>
+            <p class="text-[40px] font-semibold absolute top-[40%] left-[30%]">
+              Office
+            </p>
+          </div>
+          <div
+            class="year flex items-center justify-center w-[235px] h-[200px] relative"
+          >
+            <h2 class="absolute text-[180px] opacity-10" data-target="5">45</h2>
+            <p class="text-[40px] font-semibold absolute top-[40%] left-[30%]">
+              People
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- section 9 -->
+      <section class="section financial-section" id="financial">
+        <div class="container-fulid">
+          <div class="financial-wrapper">
+            <h2 class="financial-heading">
+              Get your Bespoke Financial Plan and investment strategy in just
+              one session for FREE.
+            </h2>
+            <div class="financial-button">
+              <a href="#" class="btn get-start-btn"
+                >Click here to Schedule Meeting</a
+              >
             </div>
-            <div></div>
-            <div></div>
-            <div></div>
+          </div>
+        </div>
+        <div class="overlay"></div>
+      </section>
+      <!-- section 10 -->
+      <section class="slider_container blog-section container mx-auto my-20">
+        <div class="flex items-center justify-center text-center">
+          <div class="section-title">
+            <h2 class="h2-large mb-0">Further reading</h2>
+          </div>
+        </div>
+        <div class="">
+          <div class="swiper card_slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="img_box">
+                  <div class="flex flex-col gap-3">
+                    <div>
+                      <img
+                        src="assets/images/blog/img1.png"
+                        alt="img-1"
+                        class="img-fluid w-auto"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <div class="top-box">
+                        <span>30 DAYS CHALLENGE</span>
+                      </div>
+                      <h3 class="blog-content-list">
+                        <a href="#">Day 26 - Children's Day</a>
+                      </h3>
+                      <ul class="blog-content-list">
+                        <li>How to be a good parent?</li>
+                        <li>How to manage your money efficiently?</li>
+                      </ul>
+                      <a href="#" class="more-content">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img_box">
+                  <div class="flex flex-col gap-3">
+                    <div>
+                      <img
+                        src="assets/images/blog/img2.png"
+                        alt="img-1"
+                        class="img-fluid w-auto"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <div class="top-box">
+                        <span>30 DAYS CHALLENGE</span>
+                      </div>
+                      <h3 class="blog-content-list">
+                        <a href="#"
+                          >Day 25 - Five Maxims for Successful Investing &
+                          long-term Wealth</a
+                        >
+                      </h3>
+                      <h3 class="blog-content-list">
+                        <p>
+                          Many investment principles in practice today have been
+                          around for a long time..
+                        </p>
+                      </h3>
+                      <a href="#" class="more-content">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img_box">
+                  <div class="flex flex-col gap-3">
+                    <div>
+                      <img
+                        src="assets/images/blog/img3.png"
+                        alt="img-1"
+                        class="img-fluid w-auto"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <div class="top-box">
+                        <span>30 DAYS CHALLENGE</span>
+                      </div>
+                      <h3 class="blog-content-list">
+                        <a href="#">Day 24 - Endowment Plans - Good or bad?</a>
+                      </h3>
+                      <div class="blog-content-list">
+                        <p>
+                          One of the most frequently asked questions on various
+                          financial forums is, "Should I keep or...
+                        </p>
+                      </div>
+                      <a href="#" class="more-content">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img_box">
+                  <div class="flex flex-col gap-3">
+                    <div>
+                      <img
+                        src="assets/images/blog/img1.png"
+                        alt="img-1"
+                        class="img-fluid w-auto"
+                      />
+                    </div>
+                    <div class="card-body">
+                      <div class="top-box">
+                        <span>30 DAYS CHALLENGE</span>
+                      </div>
+                      <h3 class="blog-content-list">
+                        <a href="#">Day 26 - Children's Day</a>
+                      </h3>
+                      <ul class="blog-content-list">
+                        <li>How to be a good parent?</li>
+                        <li>How to manage your money efficiently?</li>
+                      </ul>
+                      <a href="#" class="more-content">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="bg-[#0E1110] py-10">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-[25%_25%_25%_25%] gap-10">
+          <div>
+            <a><img src="/assets/images/footer-logo.png" alt="" /></a>
+            <p>
+              Financial Advisor in Dubai, helping you grow wealth, create
+              passive income and achieve your financial goals faster.
+            </p>
+          </div>
+          <div class="footer-menu">
+            <h3>Resources</h3>
+            <ul class="footer-menu-list">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Products</a>
+              </li>
+              <li>
+                <a href="#">Resources</a>
+              </li>
+              <li>
+                <a href="#">About the GAiM Plan</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-menu">
+            <h3>Listen to GAiM Plan Podcast</h3>
+            <ul class="footer-menu-list">
+              <li>
+                <a href="#">Youtube</a>
+              </li>
+              <li>
+                <a href="#">Apple Podcasts</a>
+              </li>
+              <li>
+                <a href="#">Google Podcasts</a>
+              </li>
+              <li>
+                <a href="#">Anchor FM</a>
+              </li>
+              <li>
+                <a href="#">Spotify</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Start footer-menu -->
+          <div class="footer-menu">
+            <h3>Say Hello</h3>
+            <ul class="footer-menu-list">
+              <li>
+                <span><i class="bi bi-envelope"></i></span
+                ><a href="mailto:info@gmail.com">info@gmail.com</a>
+              </li>
+              <li>
+                <span><i class="bi bi-telephone"></i></span
+                ><span>+1 840 841 25 69</span>
+              </li>
+            </ul>
+            <div class="social-icons">
+              <a href="#" class="icon-btn" title="Facebook"
+                ><i class="fab fa-facebook-square"></i
+              ></a>
+              <a href="#" class="icon-btn" title="LinkedIn"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+              <a href="#" class="icon-btn" title="Twitter"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <a href="#" class="icon-btn" title="Instagram"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="#" class="icon-btn" title="Youtube"
+                ><i class="bi bi-youtube"></i
+              ></a>
+            </div>
+          </div>
+          <!-- End footer-menu -->
+        </div>
+      </div>
+    </footer>
     <script src="/assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="text/javascript">
+      var swiper = new Swiper(".card_slider", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>
